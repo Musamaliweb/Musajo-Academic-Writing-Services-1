@@ -42,6 +42,7 @@ body	{
 	padding: 20px;
 	font-size: 140%;
 	position: relative;
+	
 	}
 
 .main1	{
@@ -337,10 +338,10 @@ h3	{
 
 p	{
 	
-	color: #000;
-	font-size: 110%;
+	color: #6f4f28;
+	font-size: 115%;
 	font-family: ;
-	font weight: normal;
+	font weight: bold;
 	line-Height:25px;
 	background color:#e5e4d7;
 	padding: 20px;
@@ -492,7 +493,7 @@ img 	{
 	color: green;
 	font-size: ;
 	text-decoration: ;
-	border-color: aquamarine;
+	border-color: #B0C4DE;
 	border-width: 2px;
 	border-style: solid;
 	margin: 5px;
@@ -518,6 +519,7 @@ img:hover {
 	height: 100vh;
 	background: #effe3e3;
 	display: flex;
+	margin-left: -6px;
 	ailign-items: center;
 	justify-container: center;
 	position: relative;
