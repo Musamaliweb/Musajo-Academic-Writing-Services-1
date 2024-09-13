@@ -130,20 +130,20 @@ h3	{
 /* ==================== Image 5,6, and 7 Section ================== */
 
 
-.image-container {
+.image-container{
 
     display: flex;
     justify-content: start; /* Adds space between images */
 }
 
-.image-container  {
-    margin: 0.5px; /* Optional: Adds spacing between images */
+.image-container img {
+    margin: 5px; /* Optional: Adds spacing between images */
     margin-left: 10px;
     margin-right: -12px;/* Controls the space between images */
-    margin-top: -10px;
+    margin-top: -14px;
     margin-bottom:-10px;
     border: 2px solid #e5e4d7; /* Adjust the border width, style, and color */
-    border-radius: 5px; /* Optional: adds rounded corners */
+    border-radius: 10px; /* Optional: adds rounded corners */
     border-width: 3px;
     background-color:#e5e4d7;
 }
@@ -177,7 +177,7 @@ h3	{
 	margin-left:10px;
 	margin-top: 5px;
 	margin-right: 10px;
-	margin-bottom: 5px;
+	margin-bottom: -15px;
 	border-radius: 5px;
 	width: auto;
 	clear: right;
@@ -198,22 +198,7 @@ h3	{
     border-radius: 5px; /* Optional: Round the edges */
 	}
 
-.bookpen {
 
-	background-color: #e5e4d7;
-	margin-left:5px;
-	margin-top: 3px;
-	margin-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 5px;
-	padding: 17px;
-	padding-left: 21px;
-	padding-right: 25px;
-	padding-top: -10px;
-	
-	
-	clear: right;
-	}
 
 /* ==================== Navbar Section ================== */
 
