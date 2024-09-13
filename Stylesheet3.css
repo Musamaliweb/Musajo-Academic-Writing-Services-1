@@ -174,13 +174,14 @@ h3	{
 
 	opacity: 1.0;
 	transition: opacity 0.5s ease-in-out;
-	margin-left:10px;
+	margin-left:0px;
 	margin-top: 5px;
-	margin-right: 10px;
+	margin-right: 250px;
 	margin-bottom: 5px;
 	border-radius: 5px;
 	width: auto;
 	clear: right;
+	float: right;
 	}
 
 .imagesidebar:hover {
@@ -493,7 +494,7 @@ b 	{
 	background-margin-top:10px;
 	color: #708090;/*slate gray*/
 	width:175px;
-
+	
 	}
 
 
