@@ -161,9 +161,9 @@ h3	{
 	margin-bottom: 0px;
 	border-radius: 5px;
 	padding: 17px;
-	padding-left: 30px;
+	padding-left: 21px;
+	padding-right: 25px;
 	padding-top: -10px;
-	float: right;
 	font-size: 105%;
 	float: right;
 	width: 260px;
@@ -196,6 +196,23 @@ h3	{
     background-color: #000; /* Optional: Add a background color for emphasis */
     padding: 2px 4px; /* Add some padding for better readability */
     border-radius: 5px; /* Optional: Round the edges */
+	}
+
+.bookpen {
+
+	background-color: #e5e4d7;
+	margin-left:5px;
+	margin-top: 3px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	padding: 17px;
+	padding-left: 21px;
+	padding-right: 25px;
+	padding-top: -10px;
+	
+	
+	clear: right;
 	}
 
 /* ==================== Navbar Section ================== */
@@ -949,25 +966,6 @@ h4 {
     margin-left: 10px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
