@@ -137,7 +137,7 @@ h3	{
 }
 
 .image-container img {
-    margin: 5px; /* Optional: Adds spacing between images */
+    margin: 0.5px; /* Optional: Adds spacing between images */
     margin-left: 10px;
     margin-right: -12px;/* Controls the space between images */
     margin-top: -14px;
@@ -177,7 +177,7 @@ h3	{
 	margin-left:10px;
 	margin-top: 5px;
 	margin-right: 10px;
-	margin-bottom: -15px;
+	margin-bottom: 5px;
 	border-radius: 5px;
 	width: auto;
 	clear: right;
