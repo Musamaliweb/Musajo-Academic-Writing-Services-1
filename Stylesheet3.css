@@ -136,7 +136,7 @@ h3	{
     justify-content: start; /* Adds space between images */
 }
 
-.image-container img {
+.image-container  {
     margin: 0.5px; /* Optional: Adds spacing between images */
     margin-left: 10px;
     margin-right: -12px;/* Controls the space between images */
