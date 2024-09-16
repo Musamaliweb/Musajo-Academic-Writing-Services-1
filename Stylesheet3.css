@@ -363,6 +363,26 @@ h3	{
 
 	}
 
+/* ==================== Footer for "C-2024" Section ================== */
+
+
+footer {
+  background-color: #e5e4d7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
 /* ==================== Paragraph Section ================== */
 
 p	{
