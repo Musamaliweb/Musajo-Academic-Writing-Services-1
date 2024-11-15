@@ -42,6 +42,8 @@ body	{
 	padding: 20px;
 	font-size: 140%;
 	position: relative;
+
+	
 	
 	}
 /* ================= Main1 Section Other pages/Not index =============== */
@@ -168,6 +170,9 @@ h3	{
 	float: right;
 	width: 260px;
 	clear: right;
+
+
+	
 	}
 
 .imagesidebar {
@@ -219,9 +224,24 @@ h3	{
 	text-align: center;
 	border-radius: 5px;
 
-
+	display: flex;
+    	flex-direction: row;
 	
 	}
+
+
+@media (max-width: 400px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
 
 #navbar ul li	{
 
@@ -254,7 +274,7 @@ h3	{
 
 	{
 
-	width: 100%;
+	mini-width: 160px;
 	position: absolute;
 	z-index: 999;
 	display: none;
@@ -972,8 +992,6 @@ h4 {
     margin-left: 10px;
     cursor: pointer;
 }
-
-
 
 
 
