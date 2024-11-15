@@ -15,10 +15,32 @@ body	{
 
 	background-color: #5c755e;
 	margin:10px;
-	height: 90px;
+	height: 80px;
 	border-radius: 5px;
 	
+	display: flex;
+      	justify-content: space-between;
+      	align-items: center;
+	padding: 10px 10px;
+  	
+	font-size: 100%;
+  	margin: 10px;
+	color: White;
 	}
+
+
+.whatsapp {
+      	color: #25d366; /* WhatsApp green */
+      	font-weight: bold;
+      	text-decoration: none;
+	font-size: 18px;
+    	}
+
+.whatsapp:hover {
+      	text-decoration: none;
+	background-color: #e5e4d7;
+    	}
+
 /* ==================== Navigation Bar Section ================== */
 
 #navbar	{
@@ -100,7 +122,7 @@ h3	{
 	margin: 0px;
 
 	position: relative;
-	top: 50%;
+	top: 25%;
 	-web-kit-transform: translatey(-50%);
 	ms-transform: translatey(-50%);
 	transform: translatey(-50%);
@@ -113,8 +135,8 @@ h3	{
 
 	opacity: 1.0;
 	transition: opacity 0.5s ease-in-out;
-	margin-left:0px;
-	margin-top: 0px;
+	margin-left:-7px;
+	margin-top: 5px;
 	margin-right: 10px;
 	margin-bottom: 5px;
 	border-radius: 5px;
