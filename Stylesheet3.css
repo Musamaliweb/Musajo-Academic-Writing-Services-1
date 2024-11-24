@@ -260,9 +260,12 @@ h3	{
     }
 
     .sideright {
-        float: none;
+        
         width: 100%;
-        padding: 10px;
+        height: 50px;
+	top: auto;
+	bottom: 0;
+ 	display: flex;
     }
 
     nav {
@@ -295,6 +298,7 @@ h3	{
         padding: 15px;
     }
 }
+
 
 #navbar ul li	{
 
