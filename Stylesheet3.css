@@ -1139,6 +1139,7 @@ h4 {
         font-size: 18px;
         line-height: 1.4;
 	width: auto;
+	display:inline-block;
     }
 
 /* ------- Flushing button ------ */
@@ -1185,6 +1186,7 @@ h4 {
         font-size: 18px;
         line-height: 1.4;
 	width: auto;
+	display:inline-block;
     }
 
 /* ------- Why Clients Choose Us - Boxes ---- */
