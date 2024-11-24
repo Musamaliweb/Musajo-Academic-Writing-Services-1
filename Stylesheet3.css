@@ -1011,6 +1011,11 @@ h4 {
         margin: 10px;
     }
 
+ h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
 /*---------------------Media Queries for Header Section --------------------*/
 
@@ -1120,6 +1125,7 @@ h4 {
     .main {
         padding: 15px;
         text-align: center;
+	margin: 0 auto;
     }
 
 /* ------ Sparkle heading ------ */
@@ -1129,11 +1135,18 @@ h4 {
         line-height: 1.4;
     }
 
+    .Caption1sparkle-heading {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
 /* ------- Flushing button ------ */
 
     .flushing-button {
         font-size: 14px;
-        padding: 10px 15px;
+        padding: 10px 20px;
+	margin: 15px auto;
+        display: inline-block;
     }
 
     .flushing-button a {
@@ -1154,9 +1167,18 @@ h4 {
     .main p {
         font-size: 14px;
         line-height: 1.5;
+	text-align: justify;
+        margin-bottom: 15px;
     }
 
 /* ------- Main2 heading adjustments ------- */
+
+    .main2 p {
+        font-size: 14px;
+        line-height: 1.5;
+	text-align: justify;
+        margin-bottom: 15px;
+    }
 
     .Caption1sparkle-heading {
         font-size: 18px;
@@ -1185,6 +1207,7 @@ h4 {
 
     .content-box {
         font-size: 14px;
+	margin: 0 10px;
     }
 
 /* ------- Footer adjustments ------- */
