@@ -1138,7 +1138,7 @@ h4 {
     .Caption1sparkle-heading {
         font-size: 18px;
         line-height: 1.4;
-	width: auto;
+	width: 100%;
 	display:inline-block;
     }
 
@@ -1185,7 +1185,7 @@ h4 {
     .Caption1sparkle-heading {
         font-size: 18px;
         line-height: 1.4;
-	width: auto;
+	width: 100%;
 	display:inline-block;
     }
 
