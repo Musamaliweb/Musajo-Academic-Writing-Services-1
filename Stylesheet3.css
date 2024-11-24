@@ -252,52 +252,6 @@ h3	{
 	}
 
 
-/* Small devices (phones, 600px and below) */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
-        margin: 10px;
-    }
-
-    .sideright {
-        
-         float: none;
-        width: 100%;
-        padding: 10px;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .content {
-        padding: 10px;
-        font-size: 12px;
-    }
-}
-
-/* Medium devices (tablets, 768px and below) */
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 15px;
-    }
-
-    .sideright {
-        width: 40%;
-    }
-
-    nav {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .content {
-        padding: 15px;
-    }
-}
-
-
 #navbar ul li	{
 
 	display: inline-block;
@@ -1047,6 +1001,248 @@ h4 {
     margin-left: 10px;
     cursor: pointer;
 }
+
+/*------------ MEDIA QUERIES FOR PHONE & TABLETS RESPONSIVENESS -------------*/
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+
+/*---------------------Media Queries for Header Section --------------------*/
+
+/* ------- Adjust header layout---- */
+    #header {
+        text-align: center;
+        padding: 10px;
+    }
+
+/*-------- Logo adjustments------ */
+
+    .imagelogo {
+        width: 70px; /* Scale down logo */
+        height: auto;
+    }
+
+/* -------Text size adjustments ----*/
+
+    #header h3 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+/* ------ WhatsApp button styling---- */
+
+    .whatsapp {
+        display: block;
+        margin: 10px auto;
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+/* --------------------- Media Queries for Navbar adjustments -------------- */
+
+    #navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    #navbar ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    #navbar ul li ul.dropdown {
+        display: none; /* Hide dropdowns by default */
+    }
+    #navbar ul li:hover ul.dropdown {
+        display: block; /* Enable dropdown on hover */
+    }
+    #navbar a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+/* ------------------- Media Queries for Sideright adjustments -------------- */
+
+/* --- General adjustments for sideright containers--- */
+
+    .sideright {
+        padding: 10px;
+        text-align: center; /* Center-align content for smaller screens */
+        margin: 10px 0;
+    }
+    
+    /* Image adjustments */
+    .sideright img {
+        width: 100%; /* Make images fully responsive */
+        height: auto;
+    }
+
+    /* Current time styling */
+    #current-time {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /* Quotes and text adjustments */
+    #quotes h4 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .sideright h2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .sideright p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+/* ------ Flushing button text adjustments----- */
+
+    .flushing-button span {
+        display: block;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .rotating-text .word {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+/* ------------------- Media Queries for MAIN BODY adjustments -------------- */
+
+/* ------ Main container adjustments ------ */
+    .main {
+        padding: 15px;
+        text-align: center;
+    }
+
+/* ------ Sparkle heading ------ */
+
+    .sparkle-heading {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+/* ------- Flushing button ------ */
+
+    .flushing-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .flushing-button a {
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+/* ------- Image container adjustments ---- */
+
+    .image-container img {
+        width: 100%; /* Full width for small screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Add space between images */
+    }
+
+/* ------- Paragraph text adjustments ------ */
+
+    .main p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+/* ------- Main2 heading adjustments ------- */
+
+    .Caption1sparkle-heading {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+/* ------- Why Clients Choose Us - Boxes ---- */
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center;
+    }
+
+    .box {
+        width: 100%; /* Full width of the screen */
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .round-image {
+        width: 80px; /* Resize images */
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .content-box {
+        font-size: 14px;
+    }
+
+/* ------- Footer adjustments ------- */
+
+    #footer ul {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    #footer ul li {
+        margin-bottom: 10px; /* Add spacing between links */
+    }
+
+    .social-icon {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
