@@ -261,11 +261,9 @@ h3	{
 
     .sideright {
         
+         float: none;
         width: 100%;
-        height: 50px;
-	top: auto;
-	bottom: 0;
- 	display: flex;
+        padding: 10px;
     }
 
     nav {
