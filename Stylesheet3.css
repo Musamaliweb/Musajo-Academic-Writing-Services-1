@@ -1158,12 +1158,17 @@ h4 {
 
 /* ------- Image container adjustments ---- */
 
-    .image-container img {
-        width: 100%; /* Full width for small screens */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px; /* Add space between images */
-	display: inline-block;
-    }
+    .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adds spacing between images */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto;
+}
 
 /* ------- Paragraph text adjustments ------ */
 
