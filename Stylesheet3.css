@@ -251,6 +251,14 @@ h3	{
 	
 	}
 
+
+@media (max-width: 600px) {
+    .flushing-button {
+        font-size:14px;
+	line-height:25px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size:36px;
