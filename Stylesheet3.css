@@ -1138,7 +1138,7 @@ h4 {
     .Caption1sparkle-heading {
         font-size: 18px;
         line-height: 1.4;
-	width: 100%;
+	width: auto;
 	display:inline-block;
     }
 
@@ -1162,6 +1162,7 @@ h4 {
         width: 100%; /* Full width for small screens */
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Add space between images */
+	display: inline-block;
     }
 
 /* ------- Paragraph text adjustments ------ */
@@ -1185,7 +1186,7 @@ h4 {
     .Caption1sparkle-heading {
         font-size: 18px;
         line-height: 1.4;
-	width: 100%;
+	width: auto;
 	display:inline-block;
     }
 
