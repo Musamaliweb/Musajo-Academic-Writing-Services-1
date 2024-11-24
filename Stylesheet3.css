@@ -251,15 +251,22 @@ h3	{
 	
 	}
 
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size:36px;
+	line-height:50px;
+    }
+}
 
-@media (max-width: 400px) {
+
+@media (max-width: 600px) {
     #navbar ul {
         flex-direction: column;
     }
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     font-size: 14px;
   }
